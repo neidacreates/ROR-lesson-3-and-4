@@ -11,7 +11,7 @@ while playing_game
 
     while !correctly_guessed
         guess = (high + low) / 2
-        puts "My first guess is #{guess}, is that correct?"
+        puts "My guess is #{guess}, is that correct?"
         response = gets.chomp.downcase
 
         if response == "too low"
